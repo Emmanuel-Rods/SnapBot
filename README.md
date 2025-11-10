@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **Thank You for Your Support!**
+>
+> Snapbot is a hobby Project of mine which I released almost a year ago and its gaining a lot of traction recently. If you find this project useful or are interested in futher development, please consider starring the repository. It helps me know that you're interested and encourages future development. Your support is greatly appreciated!
+
+> 
 # SnapBot v2
 
 SnapBot is a modern, browser-level automation library designed specifically for Snapchat.
