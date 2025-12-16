@@ -278,7 +278,7 @@ export default class SnapBot {
       // 📝 Add caption if provided
       if (obj.caption) {
         await delay(2000);
-        const captionButtonSelector = 'button.eUb32[title="Add a caption"]';
+        const captionButtonSelector = 'button[title="Add a caption"]';
         await this.page.waitForSelector(captionButtonSelector, {
           visible: true,
         });
