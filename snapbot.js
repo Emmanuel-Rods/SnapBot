@@ -131,7 +131,7 @@ export default class SnapBot {
     await delay(10000);
     //click not now
     try {
-      const notNowBtn = "button.NRgbw.eKaL7.Bnaur"; //NRgbw eKaL7 Bnaur
+      const notNowBtn = "button.NRgbw.eKaL7.Bnaur"; 
       console.log("Checking for 'Not now' button...");
       await this.page.waitForSelector(notNowBtn, {
         visible: true,
@@ -157,7 +157,7 @@ export default class SnapBot {
 
   async handlePopup() {
     try {
-      const notNowBtn = "button.NRgbw.eKaL7.Bnaur"; //NRgbw eKaL7 Bnaur
+      const notNowBtn = "button.NRgbw.eKaL7.Bnaur";
       const notNowBtnHandle = await this.page.waitForSelector(notNowBtn, {
         visible: true,
         timeout: 5000,
@@ -229,7 +229,7 @@ export default class SnapBot {
         // Capture button
         if (isSVGbuttonFound) {
           await delay(1000);
-          const captureButtonSelector = "button.FBYjn.gK0xL.A7Cr_.m3ODJ"; //FBYjn gK0xL A7Cr_ m3ODJ
+          const captureButtonSelector = "button.FBYjn.gK0xL.A7Cr_.m3ODJ"; 
           const captureButton = await this.page.waitForSelector(
             captureButtonSelector,
             { visible: true }
@@ -351,7 +351,7 @@ export default class SnapBot {
           console.log("account not found.");
         }
       }
-      const sendButton = await this.page.$("button[type='submit']"); //YatIx q5eEJ eKaL7 Bnaur
+      const sendButton = await this.page.$("button[type='submit']"); 
       await sendButton.click();
       delay(5000);
     } catch (error) {
@@ -688,7 +688,7 @@ export default class SnapBot {
     }
     //send button
 
-    const sendButton = await this.page.$("button[type='submit']"); //YatIx q5eEJ eKaL7 Bnaur
+    const sendButton = await this.page.$("button[type='submit']"); 
     await sendButton.click();
   }
 
